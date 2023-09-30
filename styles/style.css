@@ -34,10 +34,11 @@ header{
     justify-content:space-between;
     background: transparent;
     transition: all ease .55s;
-    gap: 13px;
 }
 
 .navList{
+    position: absolute;
+    margin-left: 28.1%;
     display: flex;
 }
 
@@ -95,7 +96,7 @@ section{
 }
 
 .home-img img{ 
-    width: 110%;
+    width: 95%;
 }
 
 .home-text{
@@ -167,4 +168,157 @@ section{
     border: 1px solid var(--other-color);
     background: transparent;
     color: var(--other-color);
+}
+
+/* ========================== ABOUT SECTION ======================== */
+.about{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.about-img img{
+    width: 400px;
+}
+
+.about-text{
+    margin-top: 100px;
+}
+
+
+.about-text span{
+    padding: 11px 18px;
+    background: #4c1432;
+    border-radius: 10px;
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.about-text h1{
+    font-size: var(--h1-font);
+    font-weight: 800;
+    line-height: 1.3;
+    margin: 18px 0;
+}
+
+.about-text p{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 400;
+    color:var(--text-color);
+    line-height: 25px;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+/* ========================== PORTOFOLIO SECTION ======================== */
+
+.title{
+    text-align: center;
+    margin-top: 85px;
+}
+
+.title h2{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 7px 0px 10px;
+    line-height: 1.1s;
+}
+
+.title h3{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.title p{
+    font-size: 17px;
+    line-height: 28px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0 8%;
+}
+.content-img img{
+    width: 300px;
+}
+.content-item {
+    margin-top: 30px;
+    display:flex;
+    border: 1px solid var(--other-color);
+    width: 50%;
+    gap: 0px;
+    transition: all ease .55s;
+    cursor: pointer;
+}
+
+.content-text h3{
+    padding: 12px;
+    color: var(--other-color);
+}
+
+.content-icon{
+    display: inline-flex;
+    margin-left: 10px;
+    font-size: 10px;
+    background: var(--main-color);
+    color: var(--other-color);
+    border-radius: 7px;
+    padding: 7px 10px;
+    cursor: pointer;
+    transition: all ease .55s;
+
+}
+
+.content-icon:hover{
+    background: #4c1432;
+    color: var(--other-color);
+    transform: scale(1.09);
+}
+
+/* ========================== BLOG SECTION ======================== */
+
+article{
+    padding: 0 8%;
+}
+.title-blog{
+    padding: 24px;
+    margin-top: 130px;
+    margin-bottom: 25px;
+    width: 50%;
+}
+.title-blog h2{
+    color: var(--other-color);
+}
+.title-blog h3{
+    font-size: 17px;
+    line-height: 28px;
+}
+.container-item {
+    padding: 24px 24px 0px 24px;
+    cursor: pointer;
+}
+.container-item h2{
+    font-size: 24px;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+.description p{
+    font-size: 17px;
+    line-height: 28px;
+    padding-bottom: 17px;
+}
+.container-item:hover{
+    color: var(--other-color);
+    background: #071825;
 }
