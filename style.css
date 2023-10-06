@@ -111,8 +111,15 @@ section{
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 1px;
+    transition: all ease .55s;
 }
+.home-text span:hover{
+    background:#f53fa1;
+    color:#4c1432;
+    transform: scale(1.09);
+    cursor: pointer;
 
+}
 .home-text h1{
     font-size: var(--h1-font);
     font-weight: 800;
@@ -199,6 +206,14 @@ section{
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 1px;
+    transition: all ease .55s;
+}
+
+.about-text span:hover{
+    background:#f53fa1;
+    color:#4c1432;
+    transform: scale(1.09);
+    cursor: pointer;
 }
 .about-text h1{
     font-size: var(--h1-font);
@@ -254,7 +269,7 @@ section{
     margin-top: 30px;
     display:flex;
     border: 1px solid var(--other-color);
-    width: 50%;
+    width: 560px;
     gap: 0px;
     transition: all ease .55s;
     cursor: pointer;
