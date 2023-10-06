@@ -318,7 +318,7 @@ article{
     line-height: 28px;
     padding-bottom: 17px;
 }
-.container-item:hover{
+.container-item:hover {
     color: var(--other-color);
     background: #071825;
 }
