@@ -306,6 +306,9 @@ article{
     padding: 24px 24px 0px 24px;
     cursor: pointer;
 }
+.container-item a{
+    color: var(--text-color);
+}
 .container-item h2{
     font-size: 24px;
 }
@@ -321,4 +324,26 @@ article{
 .container-item:hover {
     color: var(--other-color);
     background: #071825;
+}
+.container-item a:hover {
+    color: var(--other-color);
+    background: #071825;
+}
+
+
+/* ==========================------Berita Section----======================== */
+
+.container-berita{
+    position: absolute;
+    margin-top:90px;
+}
+.container-berita h2{
+    color: var(--other-color);
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.container-berita p{
+    text-align: justify;
+    letter-spacing: 1px;
 }
